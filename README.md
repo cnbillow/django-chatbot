@@ -6,7 +6,7 @@ django_chatbot是chatbot-py的django封装版本，chatbot-py是中文聊天机�
 **1. 安装**
 ```
 git clone https://github.com/lin423497786/django-chatbot.git
-cd django_chatbot
+cd django-chatbot
 pip install -r requirements.txt
 ```
 
