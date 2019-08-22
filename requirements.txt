@@ -1,4 +1,4 @@
-django
+django==2.1
 djangorestframework
 pymysql
 chatbot-py
