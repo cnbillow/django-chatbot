@@ -60,6 +60,7 @@ headers = {
 requests.post('http://127.0.0.1/api/chatbot/learn/', json=post_data, headers=headers)
 ```
 **5. 提问**
+
 学习完后就可以向机器人提出问题， 这里以步骤4学习的“天气查询”进行提问，因为“天气查询”调用的是chatbot.ext.integrate_weather_gaode.get_weather
 函数，该函数有2个参数，程序会一一识别出来，并一个个询问，但所有参数都询问完后程序就会调用该函数，将该函数的返回值作为回复，如下所示。
 ```
@@ -84,3 +85,5 @@ print(response.text)
 # 效果图
 这是集成到微信公众号后的效果图
 ![效果图](https://github.com/lin423497786/django-chatbot/blob/master/result.jpg)
+
+# 
