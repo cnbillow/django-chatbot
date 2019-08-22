@@ -16,6 +16,7 @@ python manage.py runserver 80
 ```
 
 **3. 静态语料学习**
+
 静态语料：不需要调用函数或接口的语料
 ```
 import requests
@@ -36,6 +37,7 @@ requests.post('http://127.0.0.1/api/chatbot/learn/', json=post_data, headers=hea
 ```
 
 **4. 动态语料学习**
+
 动态语料：需要调用函数或接口的语料
 这里以天气查询为例子，首先先定义一个函数，这里使用chatbot.ext.integrate_weather_gaode.get_weather函数
 ```
@@ -81,4 +83,4 @@ print(response.text)
 
 # 效果图
 这是集成到微信公众号后的效果图
-![](你刚复制的图片路径)
+![效果图](https://github.com/lin423497786/django-chatbot/blob/master/result.jpg)
