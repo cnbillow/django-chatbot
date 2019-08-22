@@ -1,5 +1,5 @@
-# django_chatbot
-django_chatbot是chatbot-py的django封装版本，chatbot-py是中文聊天机器人， 支持上下文管理，动态的函数调用，
+# django-chatbot
+django-chatbot是chatbot-py的django封装版本，chatbot-py是中文聊天机器人， 支持上下文管理，动态的函数调用，
 可以根据自己的语料训练出自己想要的聊天机器人，可以用于智能客服、在线问答、智能聊天等场景!
 
 # 快速开始
@@ -86,4 +86,5 @@ print(response.text)
 这是集成到微信公众号后的效果图
 ![效果图](https://github.com/lin423497786/django-chatbot/blob/master/result.jpg)
 
-# 
+# 与我联系
+有任何问题可以直接加入QQ群830101859
